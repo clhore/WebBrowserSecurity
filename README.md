@@ -41,6 +41,22 @@ The attackers take advantage of the fact that the session is valid to inject the
     </a>
 </div>
 
+#### Stealer
+
+One of the most used due to the amount of data that can be extracted from a computer, not just credentials such as `PasswordStealer`, there are many `Stealers` that are capable of extracting personal information from the user, monitoring their activities, I have informed the attacker . This can allow the theft of sensitive information such as identity documents, which can be used to falsify the person's identity.
+
+Thanks to the data obtained with the `Stealers`, an attacker was able to carry out a large number of attacks and operations to gain `access` to `multiple accounts`, not only of the user himself but of all users who have ever logged in there. team and there left some trace. In addition to obtaining the information of all users who have left a trace on the computer. Here data analysis techniques and `information gathering` come into play, among many other techniques that can allow the attacker to obtain `relevant` and `sensitive` `information`.
+
+This type of malware is usually of the Trojan type, which means that the user is tricked into the system, since the user is never aware that a malicious program is installed.
+
+##
+
+> Today there are many people who carry out advertising campaigns, some companies provide them with certain files that at first may seem like a harmless program or a document that seems harmless, but behind the scenes a series of tasks are being carried out to install malicious software.
+
+> The user does not usually find out until the antivirus detects it or they have already told him that the damage has already been done and there is not much to do.
+
+##
+
 ## Software implementation
 
 All source code used to generate the results and figures in the paper are in
