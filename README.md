@@ -25,11 +25,18 @@ One of the attacks most used today to steal user accounts on Internet platforms 
 The great potential for attackers of this and similar attacks is that it does not require a username, password (in order to gain access to the user's session) as well as being able to bypass most of the `Two-Factore authenticate`. \
 *Sometimes the password may be necessary to perform actions within the account, this will depend on the actions that the attacker wants to perform within the account and the security level implemented by the web service provider.*
 
+This is a very superficial explanation. In case you want to learn a little more about this type of attack, you can search for information on your own or visit [on this website](https://medium.com/cybersecured/cookie-and-session-based-attacks-cybersecurity-university-by-codepath-unit-2-f2257a22d4c6) which I think explains the bases of the attack very well.
+
+ > - Faked Requests
+ > - Cross-Site Request Forgery
+ > - Cookie Theft and Manipulation
+ > - Other methods
+
 #### Cookie-Hijacking - Sample
 
 To understand how these types of attacks are carried out, we need to know what a session cookie is and how web services perform authentication.
 
-In short, a session cookie allows the server to identify the user. This is very useful since `http` is a communications protocol that treats each request as a separate transaction that has no relation to any previous request (`stateless protocol`). This makes it necessary to use `cookies` to be able to *identify the different clients*.
+In short, a session cookie allows the server to identify the user. This is very useful since `http` is a communications protocol that treats each request as a separate transaction that has no relation to any previous request (*`stateless protocol`*). This makes it necessary to use `cookies` to be able to *`identify the different clients`*.
 
 As shown in the image, the user `authenticates` with her credentials and the server guive a `cookie` that identifies the session just opened. In case of not closing the session we can access without entering our credentials until the session expires.
 
@@ -40,6 +47,10 @@ The attackers take advantage of the fact that the session is valid to inject the
         <img src="img/CookieBasedAuthentication.png">
     </a>
 </div>
+
+#### Phishing y Spear-Phishing
+
+This is one of the most well-known methods by the non-specialized public, but even though it is so well known, it is still one of the most effective when it comes to obtaining user credentials. Both with massive `phishing` campaigns in the old fashioned way or with more targeted `spear-phishing` methodologies. In the latter, information is extracted from the person or group of people to whom it will be addressed through `OSINT` methodologies and techniques that allow the attacker to create an attack that is much more effective.
 
 #### Stealer
 
