@@ -29,7 +29,7 @@ The great potential for attackers of this and similar attacks is that it does no
 
 To understand how these types of attacks are carried out, we need to know what a session cookie is and how web services perform authentication.
 
-In short, a session cookie allows the server to identify the user. This is very useful since the `http` isn't connection-oriented protocol, so it doesn't distinguish between different clients like the `ftp`, `ftp`, `etc` protocol would. This makes it necessary to use `cookies` to be able to *identify the different users*.
+In short, a session cookie allows the server to identify the user. This is very useful since `http` is a communications protocol that treats each request as a separate transaction that has no relation to any previous request (`stateless protocol`). This makes it necessary to use `cookies` to be able to *identify the different clients*.
 
 As shown in the image, the user `authenticates` with her credentials and the server guive a `cookie` that identifies the session just opened. In case of not closing the session we can access without entering our credentials until the session expires.
 
