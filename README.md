@@ -48,9 +48,33 @@ The attackers take advantage of the fact that the session is valid to inject the
     </a>
 </div>
 
-#### Phishing y Spear-Phishing
+#### Phishing & Real-time Phishing
 
 This is one of the most well-known methods by the non-specialized public, but even though it is so well known, it is still one of the most effective when it comes to obtaining user credentials. Both with massive `phishing` campaigns in the old fashioned way or with more targeted `spear-phishing` methodologies. In the latter, information is extracted from the person or group of people to whom it will be addressed through `OSINT` methodologies and techniques that allow the attacker to create an attack that is much more effective.
+
+The following image shows a typical phishing attack in a very summarized form, the attacker sends a malicious message to the victim. The message contains a link that, when clicked, leads to a web page where the victim must enter his credentials, the victim enters them thinking that the site is legitimate. Subsequently, the data entered are sent to the attacker, usually the website shows you a login error and redirects you to the real website.
+
+<div aling="center">
+    <a href="https://www.cloudflare.com/es-es/learning/access-management/phishing-attack/">
+        <img src="img/diagramPhishingAttack.png">
+    </a>
+</div>
+
+In more sophisticated `Real-time Phishing` attacks the malicious website handles a request with the real website to log the user into the real website to prevent the hoax from being discovered. Although in some cases a request is made to the real website and a check is made to see if the user has `Two-Factore authenticate`. If the `Two-Factore authenticate` is active, the user is prompted to obtain an authorized session to which the attacker will have access, then in some cases it is sent to a remote computer that automatically performs the actions desired by the attacker.
+
+<div aling="center">
+    <a href="https://www.mandiant.com/resources/blog/reelphish-real-time-two-factor-phishing-tool">
+        <img src="img/realTimePhishing.png" style="height:100%; width:100%;">
+    </a>
+</div>
+
+These types of attacks can get very complicated. If you want more information related to 'Real-time Phishing' attacks, how they work in depth and the danger of this type of attacks, I leave a couple of very interesting [websites](https://www.phishdeck.com/blog/what-is-realtime-phishing/).
+
+> - https://blog.cloudflare.com/2022-07-sms-phishing-attacks/
+> - https://www.mandiant.com/resources/blog/reelphish-real-time-two-factor-phishing-tool
+> - https://gbhackers.com/real-time-two-factor-phishing-tool/
+> - https://www.phishdeck.com/blog/what-is-realtime-phishing/ 
+> - https://www.usenix.org/conference/usenixsecurity21/presentation/ulqinaku
 
 #### Stealer
 
