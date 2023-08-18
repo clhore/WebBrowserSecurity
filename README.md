@@ -84,6 +84,16 @@ Thanks to the data obtained with the `Stealers`, an attacker was able to carry o
 
 This type of malware is usually of the Trojan type, which means that the user is tricked into the system, since the user is never aware that a malicious program is installed.
 
+#### Summary of the most common attacks 
+
+In this category I have included the attacks that in my opinion are the most relevant and widely used to exploit web browsers.
+
+I am fully aware that there are still many attacks and methodologies to include, but my intention is to explain in a general way how vulnerable current web browsers are and the lack of training in computer security that users have about how vulnerable they are on the Internet. So I don't think it's necessary to explain attacks that are much more sophisticated or that are not so widely used to harm the common user.
+
+#### Methods used to infect the user
+ 
+
+ 
 ##
 
 > Today there are many people who carry out advertising campaigns, some companies provide them with certain files that at first may seem like a harmless program or a document that seems harmless, but behind the scenes a series of tasks are being carried out to install malicious software.
